@@ -26,6 +26,10 @@ h2 {
 	font-weight: 700;
 }
 
+.idea {
+	margin: 1em 0;
+}
+
 .idea > a {
 	display: block;
 	color: #222;
@@ -40,8 +44,13 @@ h2 {
 	text-decoration: underline;
 }
 
-.footer {
+#footer {
 	text-align: center;
 	font-size: 10pt;
 	margin-top: 2em;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #222;
 }
