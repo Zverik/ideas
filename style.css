@@ -30,21 +30,6 @@ h2 {
 	margin: 2em 0;
 }
 
-#status {
-	text-align: center;
-}
-
-#status span {
-	padding: 2px;
-	color: black;
-}
-
-.status-idea { color: #eee; }
-.status-abandoned { color: #fee; }
-.status-taken { color: #ffa; }
-.status-finishing { color: #aaf; }
-.status-done { color: #afa; }
-
 .idea {
 	margin: 1em 0;
 }
@@ -72,12 +57,26 @@ h2 {
 	text-decoration: underline;
 }
 
-#return, #footer {
-	font-size: 10pt;
+#status span {
+	padding: 2px;
+	color: black;
 }
 
-#footer {
+.status-idea { background-color: #ddd; }
+.status-abandoned { background-color: #fee; }
+.status-taken { background-color: #ffa; }
+.status-finishing { background-color: #aaf; }
+.status-done { background-color: #afa; }
+
+#return, #footer, #status {
+	font-size: 10pt;
 	text-align: center;
+}
+
+#return {
+	text-align: left;
+	position: relative;
+	top: -30px;
 }
 
 #footer a, #return a {
