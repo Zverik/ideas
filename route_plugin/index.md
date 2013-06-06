@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Route Editor Plugin
+title: JOSM Route Editing Plugin
 ---
-
-# JOSM Route Editor Plugin
 
 The current relation editing is too generic, and there should be a plugin specifically for editing public transport relations.
 The complexness of the schema is the main reason why there are so few of those relations, and they are easy to break.
