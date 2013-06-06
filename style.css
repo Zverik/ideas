@@ -1,7 +1,7 @@
 body,html {
 	margin: 0;
 	padding: 0;
-	color: #111;
+	color: #222;
 	background-color: white;
 	font-size: 12pt;
 	font-family: "Open Sans", sans-serif;
@@ -14,8 +14,10 @@ body {
 
 h1 {
 	font-weight: 600;
-	font-size: 16pt;
+	font-size: 20pt;
 	text-align: center;
+	color: #111;
+	margin: 0 0 2em;
 }
 
 h2 {
@@ -26,9 +28,20 @@ h2 {
 
 .idea > a {
 	display: block;
-	color: #111;
+	color: #222;
+	text-decoration: none;
 }
 
 .idea > a:hover {
 	background-color: #eee;
+}
+
+.idea > a > h2:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	text-align: center;
+	font-size: 10pt;
+	margin-top: 2em;
 }
