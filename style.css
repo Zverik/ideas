@@ -30,6 +30,10 @@ h2 {
 	margin: 2em 0;
 }
 
+#content a {
+	color: #222;
+}
+
 .idea {
 	margin: 1em 0;
 }
@@ -58,7 +62,7 @@ h2 {
 }
 
 #status span {
-	padding: 2px;
+	padding: 0 4px;
 	color: black;
 }
 
@@ -75,8 +79,8 @@ h2 {
 
 #return {
 	text-align: left;
-	position: relative;
-	top: -30px;
+	position: absolute;
+	top: 20px;
 }
 
 #footer a, #return a {
