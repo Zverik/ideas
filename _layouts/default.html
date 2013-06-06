@@ -3,11 +3,13 @@
 <head>
 <title>{{ page.title }}</title>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-<link href="/style.css" rel="stylesheet" type="text/css">
+<link href="{{ site.baseurl }}/style.css" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:400italic,400,600" rel="stylesheet" type="text/css">
 </head>
 <body>
+<div id="return"><a href="{{ site.baseurl }}">&laquo; to the list</a></div>
 <h1>{{ page.title }}</h1>
+{% if page.status %}<div id="status"><span class="status-{{ page.status }}">>{{ page.status | capitalize }}</span></div>{% endif %}
 <div id="content">
 {{ content }}
 </div>

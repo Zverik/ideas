@@ -30,6 +30,21 @@ h2 {
 	margin: 2em 0;
 }
 
+#status {
+	text-align: center;
+}
+
+#status span {
+	padding: 2px;
+	color: black;
+}
+
+.status-idea { color: #eee; }
+.status-abandoned { color: #fee; }
+.status-taken { color: #ffa; }
+.status-finishing { color: #aaf; }
+.status-done { color: #afa; }
+
 .idea {
 	margin: 1em 0;
 }
@@ -57,16 +72,19 @@ h2 {
 	text-decoration: underline;
 }
 
-#footer {
-	text-align: center;
+#return, #footer {
 	font-size: 10pt;
 }
 
-#footer a {
+#footer {
+	text-align: center;
+}
+
+#footer a, #return a {
 	text-decoration: none;
 	color: #222;
 }
 
-#footer a:hover {
+#footer a:hover, #return a:hover {
 	text-decoration: underline;
 }

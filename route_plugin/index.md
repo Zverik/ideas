@@ -1,6 +1,7 @@
 ---
 layout: default
 title: JOSM Route Editing Plugin
+status: idea
 ---
 
 The current relation editing is too generic, and there should be a plugin specifically for editing public transport relations.
