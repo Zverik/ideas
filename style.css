@@ -26,8 +26,20 @@ h2 {
 	font-weight: 700;
 }
 
+#content {
+	margin: 2em 0;
+}
+
 .idea {
 	margin: 1em 0;
+}
+
+.idea h2 {
+	margin-top: 0;
+}
+
+.idea p {
+	margin-bottom: 0;
 }
 
 .idea > a {
@@ -43,10 +55,6 @@ h2 {
 
 .idea > a > h2:hover {
 	text-decoration: underline;
-}
-
-#content {
-	margin: 2em 0;
 }
 
 #footer {
