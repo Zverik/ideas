@@ -57,7 +57,7 @@ h2 {
 	background-color: #eee;
 }
 
-.idea > a > h2:hover {
+.idea > a > h2 {
 	text-decoration: underline;
 }
 
