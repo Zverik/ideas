@@ -22,10 +22,10 @@ taken seriously, because every vote means something, so adding those numbers is 
 <div class="changeset"><a href="#">37794875</a> | 09 September 2013 | <a href="#">Beginner96</a></div>
 <div class="chcomment">Fixing amenity tags <a href="#">diff »</a></div>
 <div class="buttons">
-<input type="button" value="Thank you!" style="color: green;">
-<input type="button" value="It's problematic, see comments" style="color: red;">
+<input type="button" value="Thank you!" style="color: green;"/>
+<input type="button" value="It's problematic, see comments" style="color: red;"/>
 </div>
-<div class="commentfield">Comment: <input type="text" value="" id="comment" size="40"> <input type="button" value="Add"></div>
+<div class="commentfield">Comment: <input type="text" value="" id="comment" size="40"/> <input type="button" value="Add"/></div>
 <div class="comments"></div>
 
 <h2>How it works</h2>
