@@ -18,10 +18,10 @@ Here `lat` and `lon` are coordinates, `provider` is a comma-separates list of im
 imcentral checks all providers), and `force` flag requests cache update. Formats can be `xml`, `json`, `csv`.
 Return codes might be as follows:
 
-* 0 — no detailed imagery at given point
-* 1 — there is detailed imagery
-* 2 — no data, ask later
-* 9 — system error
+* 0 â€” no detailed imagery at given point
+* 1 â€”Â there is detailed imagery
+* 2 â€” no data, ask later
+* 9 â€” system error
 
 ## Imagery Providers
 
