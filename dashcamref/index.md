@@ -36,7 +36,7 @@ after loading all of them. Probably the latter. Basically the only setting is fr
 
 ## Georeferencing
 
-georef.png
+![A trace with a lot of blue dots and a yellow one](georef.png)
 
 Blue dot is a video frame, big blue dot is a frame to be saved. Drag big blue dot with a mouse to
 choose different adjacent frame to be saved (so you not actually "drag" a dot, but select another).
