@@ -55,6 +55,9 @@ When you hover over a dot, its direction of view is shown. It also should be adj
 * from the start to this frame
 * all frames
 
+A frame that is selected (or hovered over, needs responsiveness testing) should be displayed near
+the map.
+
 ## Saving
 
 It's simple: choose an output format (usually jpeg) and quality, and wait. Coordinates, direction
