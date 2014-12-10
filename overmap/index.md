@@ -11,6 +11,7 @@ map (or a satellite view) of a current location, maybe along with a speed.
 Possible overlay configuration options:
 
 * tile source (regular osm, transparent, satellite).
+* zoom: fixed or based on speed.
 * width, height, margin.
 * round or square.
 * opacity.
@@ -30,3 +31,6 @@ and correlate some of these with points in a trace. If the trace has no timestam
 this also would be used to reference it. The result might be just a plain text file.
 
 Said correlation file can be then used for [dashcamref](../dashcamref/).
+
+Also we can add waypoints. Either static (from waypoints in GPX I guess), or
+moving (separate GPX).
